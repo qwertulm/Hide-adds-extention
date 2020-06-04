@@ -1,0 +1,30 @@
+ {
+    "name": "Hide adds",
+    "version": "1.0",
+    "description": "Hide adds",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+    {
+      "matches": [ "*://www.w3schools.com/*" ],
+      "css": [ "css/w3schools.css" ]
+    },
+    {
+      "matches": [ "*://www.youtube.com/*" ],
+      "css": [ "css/youtube.css" ]
+    },
+    {
+      "matches": [ "*://anekdotov.net/*" ],
+      "css": [ "css/anekdotov.css" ]
+    },
+    {
+      "matches": [ "*://lifehacker.ru/*" ],
+      "css": [ "css/lifehacker.css" ]
+    },
+	{
+      "matches": [ "*://awwapp.com/*" ],
+      "css": [ "css/awwapp.css" ]
+    }]
+ }

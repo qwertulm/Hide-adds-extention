@@ -1,0 +1,10 @@
+/* https://webformyself.com/30-selektorov-css-kotorye-nuzhno-zapomnit/ */
+
+[id^=ytp-ad], [class^=ytp-ad-overlay] {
+  display: none !important;
+}
+
+
+.ytp-ad-skip-button-slot, .ytp-ad-skip-button-container {
+	display: block !important;
+}

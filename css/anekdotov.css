@@ -1,0 +1,7 @@
+/* https://webformyself.com/30-selektorov-css-kotorye-nuzhno-zapomnit/ */
+
+[id^=yandex_rtb] {
+  display: none !important;
+}
+
+

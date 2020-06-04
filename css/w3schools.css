@@ -1,0 +1,9 @@
+/* https://webformyself.com/30-selektorov-css-kotorye-nuzhno-zapomnit/ */
+
+#right {
+  display: none !important;
+}
+
+[id^=google_ads_iframe] {
+  display: none !important;
+}
